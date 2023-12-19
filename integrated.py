@@ -161,9 +161,16 @@ elif mode == "Hugging Face Model Downloads":
     if start_date <= end_date:
         df = read_github_files(start_date, end_date, HUGGINGFACE_DATA_DIR)
         if not df.empty:
+            model_ids = df['modelId'].unique()
+            selected_models = st.sidebar.multiselect("Select Model IDs", model_ids, default=model_ids[:5])
+
             st.title("Hugging Face Model Downloads Over Time")
-            plot_hugging_face_data(df)
-            st.dataframe(df)  # Display data as a spreadsheet
+            if selected_models:
+                filtered_df = df[df['modelId'].isin(selected_models)]
+                plot_hugging_face_data(filtered_df)
+                st.dataframe(filtered_df)  # Display data as a spreadsheet
+            else:
+                st.error("Please select at least one model.")
         else:
             st.error("No data available for the selected date range.")
     else:
