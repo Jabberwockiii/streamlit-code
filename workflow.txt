@@ -1,0 +1,6 @@
+huggingface
+github 
+gov spending
+---
+database?
+local integrate -first, then consider the database solutions
