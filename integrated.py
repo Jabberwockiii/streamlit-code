@@ -58,7 +58,7 @@ def is_json_file_empty(file_name, data_dir):
     return True  # Treat non-existent files as empty
 
 # Function to read Hugging Face GitHub data
-def read_github_files(start_date, end_date, data_dir):
+def read_huggingface(start_date, end_date, data_dir):
     delta = timedelta(days=1)
     current_date = start_date
     all_data = []
@@ -159,7 +159,7 @@ elif mode == "Hugging Face Model Downloads":
     end_date = st.sidebar.date_input("End date", datetime.now())
 
     if start_date <= end_date:
-        df = read_github_files(start_date, end_date, HUGGINGFACE_DATA_DIR)
+        df = read_huggingface(start_date, end_date, HUGGINGFACE_DATA_DIR)
         if not df.empty:
             model_ids = df['modelId'].unique()
             selected_models = st.sidebar.multiselect("Select Model IDs", model_ids, default=model_ids[:5])
