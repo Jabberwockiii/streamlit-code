@@ -1,0 +1,178 @@
+[
+    {
+        "internal_id": 137756046,
+        "Award ID": "33314521P00457948",
+        "Recipient Name": "DROPBOX, INC.",
+        "Start Date": "2021-07-06",
+        "End Date": "2023-08-13",
+        "Award Amount": 410680.0,
+        "Description": "SOFTWARE LICENSING",
+        "Award Type": null,
+        "generated_internal_id": "CONT_AWD_33314521P00457948_3300_-NONE-_-NONE-"
+    },
+    {
+        "internal_id": 77290058,
+        "Award ID": "70RDND19C00000003",
+        "Recipient Name": "DROPBOX, INC.",
+        "Start Date": "2019-02-01",
+        "End Date": "2021-01-31",
+        "Award Amount": 2154200.0,
+        "Description": "ON-DOCK RAIL (ODR) PROGRAM, TO DEVELOP AND DEPLOY THE STRADDLE CARRIER PORTAL SYSTEMS",
+        "Award Type": null,
+        "generated_internal_id": "CONT_AWD_70RDND19C00000003_7001_-NONE-_-NONE-"
+    },
+    {
+        "internal_id": 23331351,
+        "Award ID": "HHSN26100014",
+        "Recipient Name": "22ND CENTURY TECHNOLOGIES, INC.",
+        "Start Date": "2017-09-21",
+        "End Date": "2019-05-31",
+        "Award Amount": 29120.0,
+        "Description": "IGF::OT::IGF  NCCIH SHAREPOINT GRANTS DROPBOX (POTS-17-000846)",
+        "Award Type": null,
+        "generated_internal_id": "CONT_AWD_HHSN26100014_7529_HHSN261201600002I_7529"
+    },
+    {
+        "internal_id": 14284783,
+        "Award ID": "EPG17D00819",
+        "Recipient Name": "ENTERPRISE TECHNOLOGY SOLUTIONS, INC.",
+        "Start Date": "2017-03-21",
+        "End Date": "2018-03-31",
+        "Award Amount": 6946.64,
+        "Description": "GOANYWHERE EDISCOVERY DROPBOX SOFTWARE LICENSE AND SERVICE RENEWAL  TPOC: DAVID PRITCHETT",
+        "Award Type": null,
+        "generated_internal_id": "CONT_AWD_EPG17D00819_6800_NNG15SD76B_8000"
+    },
+    {
+        "internal_id": 38359871,
+        "Award ID": "W912PQ17P0025",
+        "Recipient Name": "TRACEY ROAD EQUIPMENT, INC.",
+        "Start Date": "2016-12-09",
+        "End Date": "2017-01-09",
+        "Award Amount": 8076.8,
+        "Description": "IGF::OT::IGF  DORR-MILLER DROPBOX",
+        "Award Type": null,
+        "generated_internal_id": "CONT_AWD_W912PQ17P0025_9700_-NONE-_-NONE-"
+    },
+    {
+        "internal_id": 27298345,
+        "Award ID": "NNX16CD06C",
+        "Recipient Name": "CYCRONIX",
+        "Start Date": "2016-04-25",
+        "End Date": "2019-05-23",
+        "Award Amount": 897880.0,
+        "Description": "IGF::OT::IGF  WE PROPOSE A NOVEL TECHNOLOGY TO LEVERAGE RAPIDLY EVOLVING CLOUD BASED INFRASTRUCTURE TO IMPROVE TIME CONSTRAINED SITUATIONAL AWARENESS FOR REAL-TIME DECISION MAKING. OUR \"CLOUDTURBINE\" INNOVATION ELIMINATES THE DISTINCTION BETWEEN FILES AND STREAMS. STREAMING AND STATIC DATA HAVE LONG BEEN CONSIDERED SEPARATELY. WHEREAS STREAMING DATA PROTOCOLS CONTINUE TO FRAGMENT, A GREAT UNIFICATION OF APPROACH FOR STATIC DATA HAS OCCURRED. THE PARADIGM FOR FILE-SHARING SERVICES IS SIMPLE: (1) PUT DATA IN A LOCAL FILE FOLDER, (2) IT AUTOMATICALLY SHOWS UP AT OTHER LINKED SYSTEMS. WOULDN'T IT BE NICE IF ONE COULD UNIFY AN APPROACH FOR STREAMING DATA WHILE LEVERAGING THE FILE-SHARING CLOUD INFRASTRUCTURE? THIS IS PRECISELY WHAT WE PROPOSE. CLOUDTURBINE IS A STREAMING DATA INTERFACE TO FILE-SHARING AND FILE-TRANSPORT SERVICES SUCH AS DROPBOX AND FTP. IT DELEGATES MUCH OF THE DATA TRANSMITTAL, SECURITY, AND SERVER RESOURCES TO THE THIRD-PARTY SERVICE. IT ELIMINATES THE DISTINCTION BETWEEN FILES AND STREAMS, AND ENABLES A SIMPLE, COST EFFECTIVE NEW PARADIGM FOR STREAMING DATA MIDDLEWARE. PHASE I DEMONSTRATED THE FEATURES, UTILITY, AND PERFORMANCE OF THE PROTOTYPE CLOUDTURBINE TO BE VERY APPROPRIATE FOR A WIDE RANGE OF DATA-STREAMING APPLICATIONS. A SIGNIFICANT PERFORMANCE ISSUE IS THE INHERENT LATENCY IMPOSED BY FILE BUNDLING PLUS TRANSFER TIME. TESTING HAS PROVEN THIS TO BE TRACTABLE, WITH LOW LATENCY (2-5S) FOR SEVERAL FILE SHARING SERVICES, AND VERY LOW LATENCY (10-50MS) FOR PROTOCOLS SUCH AS FTP AND MAPPED DRIVES. WE PROPOSE AN OPEN SOURCE CLOUDTURBINE WEB PORTAL AS A HUB TO PROVIDE THIS TECHNOLOGY TO NASA, SCIENTIFIC, AND INDUSTRIAL COMMUNITIES. FOLLOWING THE LEGACY OF THE EARLIER-GENERATION DATATURBINE, WE WILL VIGOROUSLY MOVE TO ESTABLISH A SELF-SUSTAINING OPEN SOURCE COMMUNITY WHICH PROVIDES CLOUDTURBINE ACCESS, DEVELOPMENT, SERVICES, SPIN-OFF PRODUCTS, AND COMMUNITY SUPPORT.",
+        "Award Type": null,
+        "generated_internal_id": "CONT_AWD_NNX16CD06C_8000_-NONE-_-NONE-"
+    },
+    {
+        "internal_id": 1064714,
+        "Award ID": "0013",
+        "Recipient Name": "MTNT IT & COMMUNICATIONS, LLC",
+        "Start Date": "2015-09-16",
+        "End Date": "2015-11-15",
+        "Award Amount": 145487.86,
+        "Description": "IGF::OT::IGF HARDEN EXISTING PHYSICAL DISTRIBUTION SYSTEM (PDS)AND REPLACE DROPBOXES FOR THE PDS IN BUILDINGS 210700, 210701, 210721, AND 210722.",
+        "Award Type": null,
+        "generated_internal_id": "CONT_AWD_0013_9700_N6247314D2209_9700"
+    },
+    {
+        "internal_id": 14452544,
+        "Award ID": "F15PO4100000329891",
+        "Recipient Name": "DROPBOX INC",
+        "Start Date": "2015-06-30",
+        "End Date": "2016-06-30",
+        "Award Amount": 115000.0,
+        "Description": "IGF::OT::IGF PURCHASE OF DROP BOX SOFTWARE LICENSES.",
+        "Award Type": null,
+        "generated_internal_id": "CONT_AWD_F15PO4100000329891_3300_-NONE-_-NONE-"
+    },
+    {
+        "internal_id": 37597686,
+        "Award ID": "W911KF15V0048",
+        "Recipient Name": "HARLAN GLOBAL MANUFACTURING LLC",
+        "Start Date": "2015-02-25",
+        "End Date": "2015-03-10",
+        "Award Amount": 12540.0,
+        "Description": "HARLAN CARRIER WITH DROPBOX",
+        "Award Type": null,
+        "generated_internal_id": "CONT_AWD_W911KF15V0048_9700_-NONE-_-NONE-"
+    },
+    {
+        "internal_id": 37597324,
+        "Award ID": "W911KF14V0276",
+        "Recipient Name": "HARLAN GLOBAL MANUFACTURING LLC",
+        "Start Date": "2013-10-02",
+        "End Date": "2013-11-08",
+        "Award Amount": 12360.0,
+        "Description": "HARLAN CARRIER DROPBOX",
+        "Award Type": null,
+        "generated_internal_id": "CONT_AWD_W911KF14V0276_9700_-NONE-_-NONE-"
+    },
+    {
+        "internal_id": 26649388,
+        "Award ID": "N4044212P7847",
+        "Recipient Name": "DROPBOX, INC.",
+        "Start Date": "2012-02-29",
+        "End Date": "2012-04-18",
+        "Award Amount": 77350.0,
+        "Description": "USS PONCE",
+        "Award Type": null,
+        "generated_internal_id": "CONT_AWD_N4044212P7847_9700_-NONE-_-NONE-"
+    },
+    {
+        "internal_id": 26647747,
+        "Award ID": "N4044211P8441",
+        "Recipient Name": "DROPBOX, INC.",
+        "Start Date": "2011-05-26",
+        "End Date": "2011-07-08",
+        "Award Amount": 62900.0,
+        "Description": "USS MOUNT WHITNEY",
+        "Award Type": null,
+        "generated_internal_id": "CONT_AWD_N4044211P8441_9700_-NONE-_-NONE-"
+    },
+    {
+        "internal_id": 13797868,
+        "Award ID": "DTFAWP09C00032",
+        "Recipient Name": "ALLIED WASTE SERVICES OF NORTH AMERICA, LLC",
+        "Start Date": "2008-11-03",
+        "End Date": "2009-09-30",
+        "Award Amount": 38336.76,
+        "Description": "GARBAGE REMOVAL SERVICE FOR FAA  5125 CENTRAL AVENUE  FREMONT,  CA.  94536-6531  FOR ONE COVERED ROLLTOP  20 CUBIC YARD REGULAR DROPBOX/DUMPSTER      CONTRACT PERIOD:  10/01/2008 THRU 09/30/2009  ROLL TOP DUMPSTER TO BE PICKED UP EVERY TUESDAY AND FRIDAY.  1 YEAR FOR A TOTAL OF $38336.76.  INVOICES WILL BE CERTIFIED EACH MONTH AND WILL NOT BE ON AUTOMATIC PAYMENT.",
+        "Award Type": null,
+        "generated_internal_id": "CONT_AWD_DTFAWP09C00032_6920_-NONE-_-NONE-"
+    },
+    {
+        "internal_id": 33742518,
+        "Award ID": "V581A81153",
+        "Recipient Name": "DROPBOX, INC.",
+        "Start Date": "2008-09-25",
+        "End Date": "2008-09-30",
+        "Award Amount": 2200.0,
+        "Description": "SMALL PURCHASE DATA",
+        "Award Type": null,
+        "generated_internal_id": "CONT_AWD_V581A81153_3600_-NONE-_-NONE-"
+    },
+    {
+        "internal_id": 33742361,
+        "Award ID": "V581A80994",
+        "Recipient Name": "DROPBOX, INC.",
+        "Start Date": "2008-08-21",
+        "End Date": "2008-08-31",
+        "Award Amount": 4400.0,
+        "Description": "SMALL PURCHASE DATA",
+        "Award Type": null,
+        "generated_internal_id": "CONT_AWD_V581A80994_3600_-NONE-_-NONE-"
+    },
+    {
+        "internal_id": 13797835,
+        "Award ID": "DTFAWP08P00115",
+        "Recipient Name": "ALLIED WASTE SERVICES OF NORTH AMERICA, LLC",
+        "Start Date": "2007-12-14",
+        "End Date": "2007-12-14",
+        "Award Amount": 36040.68,
+        "Description": "GARBAGE REMOVAL SERVICE FOR FAA  5125 CENTRAL AVENUE  FREMONT,  CA.  94536-6531  FOR ONE COVERED ROLLTOP  20 CUBIC YARD REGULAR DROPBOX/DUMPSTER  SERVICE IS PROVIDED ON AN AS NEEDED BASIS    CONTRACT PERIOD:  10/01/2007 THRU 09/30/2008    1 YEAR @ $36,040.68  NOTE TO ACCOUNTING: THIS IS A RECURRING CONTRACT, PLEASE PLACE ON AUTOMATIC PAYMENT",
+        "Award Type": null,
+        "generated_internal_id": "CONT_AWD_DTFAWP08P00115_6920_-NONE-_-NONE-"
+    }
+]

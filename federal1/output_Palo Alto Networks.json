@@ -1,0 +1,90 @@
+[
+    {
+        "internal_id": 162966877,
+        "Award ID": "FA861223CB009",
+        "Recipient Name": "PALO ALTO NETWORKS PUBLIC SECTOR, LLC",
+        "Start Date": "2023-06-21",
+        "End Date": "2024-02-20",
+        "Award Amount": 90000.0,
+        "Description": "ABMS: SOFTWARE DEFINED WIDE AREA NETWORK",
+        "Award Type": null,
+        "generated_internal_id": "CONT_AWD_FA861223CB009_9700_-NONE-_-NONE-"
+    },
+    {
+        "internal_id": 145364156,
+        "Award ID": "72044022P00015",
+        "Recipient Name": "KONIAG MANAGEMENT SOLUTIONS LLC",
+        "Start Date": "2022-01-14",
+        "End Date": "2022-09-30",
+        "Award Amount": 15234.38,
+        "Description": "REQUESTED ITEM(S): PALO ALTO NETWORKS PA-850",
+        "Award Type": null,
+        "generated_internal_id": "CONT_AWD_72044022P00015_7200_-NONE-_-NONE-"
+    },
+    {
+        "internal_id": 73589295,
+        "Award ID": "W912LM18F0084",
+        "Recipient Name": "ZIVARO INC",
+        "Start Date": "2018-08-17",
+        "End Date": "2018-09-14",
+        "Award Amount": 105463.96,
+        "Description": "PALO ALTO NETWORKS : PA-3050",
+        "Award Type": null,
+        "generated_internal_id": "CONT_AWD_W912LM18F0084_9700_W52P1J16D0011_9700"
+    },
+    {
+        "internal_id": 66123509,
+        "Award ID": "19ET1018F0298",
+        "Recipient Name": "EC AMERICA, INC.",
+        "Start Date": "2018-03-23",
+        "End Date": "2018-05-21",
+        "Award Amount": 7321.5,
+        "Description": "PALO ALTO FIREWALL",
+        "Award Type": null,
+        "generated_internal_id": "CONT_AWD_19ET1018F0298_1900_GS35F0511T_4730"
+    },
+    {
+        "internal_id": 13939277,
+        "Award ID": "E111",
+        "Recipient Name": "M-CUBED INFORMATION SYSTEMS, INC.",
+        "Start Date": "2017-04-10",
+        "End Date": "2017-04-20",
+        "Award Amount": 115960.0,
+        "Description": "PALO ALTO NETWORKSPAN-SVCPREMUSG-4050-R",
+        "Award Type": null,
+        "generated_internal_id": "CONT_AWD_E111_9700_W91QUZ11D0009_9700"
+    },
+    {
+        "internal_id": 28116492,
+        "Award ID": "SEG30016F0357",
+        "Recipient Name": "EC AMERICA, INC.",
+        "Start Date": "2016-07-24",
+        "End Date": "2016-08-02",
+        "Award Amount": 19632.5,
+        "Description": "IGF::OT::IGF IRM / ISC : PALO ALTO FIREWALL FOR ALEXANDRIA",
+        "Award Type": null,
+        "generated_internal_id": "CONT_AWD_SEG30016F0357_1900_GS35F0511T_4730"
+    },
+    {
+        "internal_id": 14710425,
+        "Award ID": "FA441713P0071",
+        "Recipient Name": "BLUE DOOR NETWORKS, LLC",
+        "Start Date": "2013-05-07",
+        "End Date": "2013-06-03",
+        "Award Amount": 36263.38,
+        "Description": "PALO ALTO NETWORKS PA-5050 LAB UNIT  PAR",
+        "Award Type": null,
+        "generated_internal_id": "CONT_AWD_FA441713P0071_9700_-NONE-_-NONE-"
+    },
+    {
+        "internal_id": 24611516,
+        "Award ID": "ING10PX00746",
+        "Recipient Name": "COMMWAVE NETWORKS, INC.",
+        "Start Date": "2010-02-10",
+        "End Date": "2010-05-30",
+        "Award Amount": 22750.0,
+        "Description": "10-9932-2362 CABLE INSTALLATION VA HOSPITAL PALO ALTO, CA",
+        "Award Type": null,
+        "generated_internal_id": "CONT_AWD_ING10PX00746_1434_-NONE-_-NONE-"
+    }
+]

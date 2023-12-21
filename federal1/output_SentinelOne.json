@@ -1,0 +1,35 @@
+[
+    {
+        "internal_id": 158870898,
+        "Award ID": "80NSSC23FA532",
+        "Recipient Name": "THUNDERCAT TECHNOLOGY, LLC",
+        "Start Date": "2023-05-09",
+        "End Date": "2024-05-08",
+        "Award Amount": 113781.25,
+        "Description": "SENTINELONE UNIVERSITY TRAINING PACKS",
+        "Award Type": null,
+        "generated_internal_id": "CONT_AWD_80NSSC23FA532_8000_NNG15SD26B_8000"
+    },
+    {
+        "internal_id": 86892890,
+        "Award ID": "6913G619F500157",
+        "Recipient Name": "EPOCH CONCEPTS LLC",
+        "Start Date": "2019-09-17",
+        "End Date": "2020-09-17",
+        "Award Amount": 51000.0,
+        "Description": "SENTINELONE DNDPOINT PROTECTION AND ENDPOINT DETECTION AND RESPONSE SOLUTION LICENSES",
+        "Award Type": null,
+        "generated_internal_id": "CONT_AWD_6913G619F500157_6901_NNG15SD30B_8000"
+    },
+    {
+        "internal_id": 27912089,
+        "Award ID": "SAQMMA16M1016",
+        "Recipient Name": "FIRSTECH INC.",
+        "Start Date": "2016-05-23",
+        "End Date": "2017-08-31",
+        "Award Amount": 40166.0,
+        "Description": "IGF::OT::IGF EX IT SPECIAL PROJECT SECURITY TOOL SENTINELONE",
+        "Award Type": null,
+        "generated_internal_id": "CONT_AWD_SAQMMA16M1016_1900_-NONE-_-NONE-"
+    }
+]

@@ -1,0 +1,46 @@
+[
+    {
+        "internal_id": 160803020,
+        "Award ID": "95C67823P0413",
+        "Recipient Name": "PROCORE TECHNOLOGIES INC",
+        "Start Date": "2023-07-13",
+        "End Date": "2024-07-12",
+        "Award Amount": 77516.0,
+        "Description": "DCSC-22-SAS-71 CONSTRUCTION MANAGEMENT SERVICES EXERCISE OF OPTION YR. 1 FOR THE PERIOD OF 7.13.2023 THROUGH 7.12.2024 IN THE AMOUNT OF $77,516.00.",
+        "Award Type": null,
+        "generated_internal_id": "CONT_AWD_95C67823P0413_9534_-NONE-_-NONE-"
+    },
+    {
+        "internal_id": 162680197,
+        "Award ID": "W50S9623P0002",
+        "Recipient Name": "PROCORE TECHNOLOGIES INC",
+        "Start Date": "2023-06-05",
+        "End Date": "2024-06-06",
+        "Award Amount": 21944.0,
+        "Description": "PROJECT MANAGEMENT PRO SUBSCRIPTION",
+        "Award Type": null,
+        "generated_internal_id": "CONT_AWD_W50S9623P0002_9700_-NONE-_-NONE-"
+    },
+    {
+        "internal_id": 156245660,
+        "Award ID": "95C67822P0477",
+        "Recipient Name": "PROCORE TECHNOLOGIES INC",
+        "Start Date": "2022-07-13",
+        "End Date": "2023-07-12",
+        "Award Amount": 83072.0,
+        "Description": "DCSC-22-SAS-71- CONSTRUCTION MANAGEMENT SOFTWARE SERVICES FOR THE PERIOD OF 07/13/22 - 07/12/23 IN THE AMOUNT OF $79,072.00.",
+        "Award Type": null,
+        "generated_internal_id": "CONT_AWD_95C67822P0477_9534_-NONE-_-NONE-"
+    },
+    {
+        "internal_id": 9391471,
+        "Award ID": "AG43ZPP146029",
+        "Recipient Name": "PROCORE TECHNOLOGIES, INC.",
+        "Start Date": "2014-09-05",
+        "End Date": "2015-09-04",
+        "Award Amount": 3000.0,
+        "Description": "IGF::CL::IGF   ONE YEAR SUBSCRIPTION TO PROCORE CONSTRUCTION MANAGEMENT SOFTWARE.",
+        "Award Type": null,
+        "generated_internal_id": "CONT_AWD_AG43ZPP146029_12C2_-NONE-_-NONE-"
+    }
+]

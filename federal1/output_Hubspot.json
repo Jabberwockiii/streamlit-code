@@ -1,0 +1,90 @@
+[
+    {
+        "internal_id": 160624119,
+        "Award ID": "W911NF23F0027",
+        "Recipient Name": "NEW TECH SOLUTIONS, INC.",
+        "Start Date": "2023-04-05",
+        "End Date": "2023-06-02",
+        "Award Amount": 16193.52,
+        "Description": "HUBSPOT PROFESSIONAL YEARLY LICENSE",
+        "Award Type": null,
+        "generated_internal_id": "CONT_AWD_W911NF23F0027_9700_W52P1J20D0061_9700"
+    },
+    {
+        "internal_id": 151015884,
+        "Award ID": "W911NF22F0019",
+        "Recipient Name": "NEW TECH SOLUTIONS, INC.",
+        "Start Date": "2022-05-17",
+        "End Date": "2023-06-01",
+        "Award Amount": 16193.52,
+        "Description": "HUBSPOT SOFTWARE YEARLY LICENSE",
+        "Award Type": null,
+        "generated_internal_id": "CONT_AWD_W911NF22F0019_9700_W52P1J20D0061_9700"
+    },
+    {
+        "internal_id": 111728081,
+        "Award ID": "W912L920F0078",
+        "Recipient Name": "COREONYX GOVERNMENT SOLUTIONS, LLC",
+        "Start Date": "2020-08-12",
+        "End Date": "2020-08-31",
+        "Award Amount": 12441.26,
+        "Description": "LICENSE INCLUDES 1000 CONTACTS AND WILL CONSIST OF A 1 YEAR LICENSING PERIOD RUNNING FROM AUGUST 24TH, 2020 TO AUGUST 23RD, 2021.  HUBSPOT PROFESSIONAL ONBOARDING IS INCLUDED",
+        "Award Type": null,
+        "generated_internal_id": "CONT_AWD_W912L920F0078_9700_GS35F294GA_4732"
+    },
+    {
+        "internal_id": 101896303,
+        "Award ID": "47HAA020F0145",
+        "Recipient Name": "COREONYX GOVERNMENT SOLUTIONS, LLC",
+        "Start Date": "2020-08-01",
+        "End Date": "2021-04-30",
+        "Award Amount": 154409.4,
+        "Description": "AWARD HUBSPOT",
+        "Award Type": null,
+        "generated_internal_id": "CONT_AWD_47HAA020F0145_4773_GS35F294GA_4732"
+    },
+    {
+        "internal_id": 7350024,
+        "Award ID": "47HAA018F0036",
+        "Recipient Name": "COLLECTIVE FLS, INC.",
+        "Start Date": "2018-02-01",
+        "End Date": "2019-07-31",
+        "Award Amount": 330859.24,
+        "Description": "PR201801110006  FIG LEAF SOFTWARE HUBSPOT RENEWAL LICENSE CALL 3 IGF::CT::IGF",
+        "Award Type": null,
+        "generated_internal_id": "CONT_AWD_47HAA018F0036_4773_GS35F0094M_4730"
+    },
+    {
+        "internal_id": 23400470,
+        "Award ID": "HHSN263201700086U",
+        "Recipient Name": "COLLECTIVE FLS, INC.",
+        "Start Date": "2017-03-14",
+        "End Date": "2018-03-19",
+        "Award Amount": 43957.68,
+        "Description": "HUBSPOT SUBSCRIPTION IGF::OT::IGF",
+        "Award Type": null,
+        "generated_internal_id": "CONT_AWD_HHSN263201700086U_7529_GS35F0094M_4730"
+    },
+    {
+        "internal_id": 14368927,
+        "Award ID": "EXIM16F0052",
+        "Recipient Name": "NEW TECH SOLUTIONS, INC.",
+        "Start Date": "2016-08-29",
+        "End Date": "2019-08-28",
+        "Award Amount": 357378.4,
+        "Description": "HUBSPOT LICENSES IGF::OT::IGF",
+        "Award Type": null,
+        "generated_internal_id": "CONT_AWD_EXIM16F0052_8300_NNG15SC82B_8000"
+    },
+    {
+        "internal_id": 22850584,
+        "Award ID": "H9224016P0084",
+        "Recipient Name": "HUBSPOT, INC.",
+        "Start Date": "2016-04-15",
+        "End Date": "2016-04-30",
+        "Award Amount": 28800.0,
+        "Description": "HUPSSPOT SOFTWARE SUBSCRIPTION",
+        "Award Type": null,
+        "generated_internal_id": "CONT_AWD_H9224016P0084_9700_-NONE-_-NONE-"
+    }
+]

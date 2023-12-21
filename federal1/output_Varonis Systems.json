@@ -1,0 +1,123 @@
+[
+    {
+        "internal_id": 162691737,
+        "Award ID": "697DCK23F00660",
+        "Recipient Name": "CDW GOVERNMENT LLC",
+        "Start Date": "2023-09-07",
+        "End Date": "2024-09-30",
+        "Award Amount": 44000.0,
+        "Description": "VARONIS SW",
+        "Award Type": null,
+        "generated_internal_id": "CONT_AWD_697DCK23F00660_6920_697DCK22D00001_6920"
+    },
+    {
+        "internal_id": 154934100,
+        "Award ID": "N3943022F4457",
+        "Recipient Name": "HANA TECHNOLOGIES AND SYSTEMS INCORPORATED",
+        "Start Date": "2022-09-23",
+        "End Date": "2023-09-22",
+        "Award Amount": 1973136.0,
+        "Description": "DATA PROTECTION/THREAT INTELLIGENCE. NAVFAC REQUIRES LICENSES FOR 11,000 USERS&SERVICES FOR INSTALLATION, CONFIGURATION, INTEGRATION, OPERATIONS TO DEPLOY & ALIGN THE VARONIS PLATFORM COMPLETELY WITH NAVFAC'S DATA SECURITY MISSION OBJECTIVES.",
+        "Award Type": null,
+        "generated_internal_id": "CONT_AWD_N3943022F4457_9700_N3943020D2251_9700"
+    },
+    {
+        "internal_id": 144311996,
+        "Award ID": "N3943021F4161",
+        "Recipient Name": "HANA TECHNOLOGIES AND SYSTEMS INCORPORATED",
+        "Start Date": "2021-09-23",
+        "End Date": "2022-09-22",
+        "Award Amount": 1973136.0,
+        "Description": "DATA PROTECTION/THREAT INTELLIGENCE DELIVERY ORDER 0002.NAVFAC REQUIRES LICENSES FOR 11,000 USERS AND SERVICES FOR INSTALLATION, CONFIGURATION, INTEGRATION, TRAINING, AND OPERATIONS TO DEPLOY AND ALIGN THE VARONIS.",
+        "Award Type": null,
+        "generated_internal_id": "CONT_AWD_N3943021F4161_9700_N3943020D2251_9700"
+    },
+    {
+        "internal_id": 13817501,
+        "Award ID": "DTFR5317P00022",
+        "Recipient Name": "VARONIS SYSTEMS, INC.",
+        "Start Date": "2017-06-20",
+        "End Date": "2018-06-20",
+        "Award Amount": 0.0,
+        "Description": "IGF::OT::IGF  DATA TRANSPORT ENGINE FOR 1150 USERS AND SOFTWARE SUBSCRIPTION AND SUPPORT FOR DATA TRANSPORT ENGINE FOR 1150 USERS FOR 1 YEAR",
+        "Award Type": null,
+        "generated_internal_id": "CONT_AWD_DTFR5317P00022_6930_-NONE-_-NONE-"
+    },
+    {
+        "internal_id": 9780206,
+        "Award ID": "AIDOIGV1700241",
+        "Recipient Name": "VARONIS SYSTEMS, INC.",
+        "Start Date": "2017-04-27",
+        "End Date": "2018-04-28",
+        "Award Amount": 9530.1,
+        "Description": "IGF::OT::IGFSUPPORT&MAINTENANCE",
+        "Award Type": null,
+        "generated_internal_id": "CONT_AWD_AIDOIGV1700241_7200_-NONE-_-NONE-"
+    },
+    {
+        "internal_id": 26595035,
+        "Award ID": "N3239816P0271",
+        "Recipient Name": "VARONIS SYSTEMS, INC.",
+        "Start Date": "2016-09-09",
+        "End Date": "2017-09-28",
+        "Award Amount": 0.0,
+        "Description": "IGF::OT::IGF (ANNUAL SOFTWARE SUBSCRIPTION AND MAINTENANCE)",
+        "Award Type": null,
+        "generated_internal_id": "CONT_AWD_N3239816P0271_9700_-NONE-_-NONE-"
+    },
+    {
+        "internal_id": 13834584,
+        "Award ID": "DTOS5914F10150",
+        "Recipient Name": "DELL FEDERAL SYSTEMS L.P.",
+        "Start Date": "2014-09-24",
+        "End Date": "2015-09-23",
+        "Award Amount": 209785.96,
+        "Description": "IGF::OT::IGF OTHER FUNCTIONS FUND&ACQUIRE VARONIS SYSTEMS  SOFTWARE WITH SUPPORT",
+        "Award Type": null,
+        "generated_internal_id": "CONT_AWD_DTOS5914F10150_6901_NNG07DA15B_8000"
+    },
+    {
+        "internal_id": 12237446,
+        "Award ID": "DESP0000379",
+        "Recipient Name": "VARONIS SYSTEMS, INC.",
+        "Start Date": "2014-06-05",
+        "End Date": "2014-06-20",
+        "Award Amount": 12267.31,
+        "Description": "IGF::CT::IGF VARONIS DATADVANTAGE IDU ANALYTICS FOR WINDOWS; SOFTWARE SUBSCRIPTION/SUPPORT",
+        "Award Type": null,
+        "generated_internal_id": "CONT_AWD_DESP0000379_8900_-NONE-_-NONE-"
+    },
+    {
+        "internal_id": 13553682,
+        "Award ID": "DOCSA130113NC0037",
+        "Recipient Name": "THREE WIRE SYSTEMS, LLC",
+        "Start Date": "2013-04-05",
+        "End Date": "2013-04-19",
+        "Award Amount": 86964.8,
+        "Description": "VARONIS DATADVANTAGE SOFTWARE",
+        "Award Type": null,
+        "generated_internal_id": "CONT_AWD_DOCSA130113NC0037_1301_NNG07DA44B_8000"
+    },
+    {
+        "internal_id": 28110385,
+        "Award ID": "SECHQ112F0202",
+        "Recipient Name": "THREE WIRE SYSTEMS, LLC",
+        "Start Date": "2012-08-27",
+        "End Date": "2013-09-18",
+        "Award Amount": 73147.69,
+        "Description": "VARONIS SOFTWARE",
+        "Award Type": null,
+        "generated_internal_id": "CONT_AWD_SECHQ112F0202_5000_NNG07DA44B_8000"
+    },
+    {
+        "internal_id": 37537794,
+        "Award ID": "W81XWH11F0009",
+        "Recipient Name": "SNR SYSTEMS, LLC",
+        "Start Date": "2010-10-13",
+        "End Date": "2010-11-15",
+        "Award Amount": 65000.0,
+        "Description": "VARONIS CONTRACT FOR SOFTWARE",
+        "Award Type": null,
+        "generated_internal_id": "CONT_AWD_W81XWH11F0009_9700_GS35F0317T_4730"
+    }
+]

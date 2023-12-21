@@ -1,0 +1,222 @@
+[
+    {
+        "internal_id": 163619347,
+        "Award ID": "15F06723F0001930",
+        "Recipient Name": "CTG FEDERAL, LLC",
+        "Start Date": "2023-09-27",
+        "End Date": "2024-09-26",
+        "Award Amount": 77948.72,
+        "Description": "GRAFANA ENTERPRISE SUBSCRIPTION",
+        "Award Type": null,
+        "generated_internal_id": "CONT_AWD_15F06723F0001930_1549_NNG15SD12B_8000"
+    },
+    {
+        "internal_id": 161402358,
+        "Award ID": "80NSSC23FA902",
+        "Recipient Name": "NEW TECH SOLUTIONS, INC.",
+        "Start Date": "2023-09-12",
+        "End Date": "2024-09-11",
+        "Award Amount": 39540.43,
+        "Description": "SOFTWARE RENEWAL FOR GRAFANA",
+        "Award Type": null,
+        "generated_internal_id": "CONT_AWD_80NSSC23FA902_8000_NNG15SC82B_8000"
+    },
+    {
+        "internal_id": 163053033,
+        "Award ID": "M6785423F4614",
+        "Recipient Name": "ENTERPRISE TECHNOLOGY SOLUTIONS, INC.",
+        "Start Date": "2023-08-11",
+        "End Date": "2024-08-10",
+        "Award Amount": 35496.77,
+        "Description": "ANNUAL RENEWAL OF GRAFANA ENTERPRISE SUBSCRIPTION SOFTWARE SUPPORT",
+        "Award Type": null,
+        "generated_internal_id": "CONT_AWD_M6785423F4614_9700_NNG15SD76B_8000"
+    },
+    {
+        "internal_id": 165648684,
+        "Award ID": "HC102823F1007",
+        "Recipient Name": "NEW TECH SOLUTIONS, INC.",
+        "Start Date": "2023-08-10",
+        "End Date": "2024-08-11",
+        "Award Amount": 52179.2,
+        "Description": "GRAFANA ENTERPRISE SOFTWARE SUBSCRIPTION",
+        "Award Type": null,
+        "generated_internal_id": "CONT_AWD_HC102823F1007_9700_NNG15SC82B_8000"
+    },
+    {
+        "internal_id": 161267941,
+        "Award ID": "19AQMM23F1417",
+        "Recipient Name": "GOVSMART, INC.",
+        "Start Date": "2023-07-11",
+        "End Date": "2024-07-10",
+        "Award Amount": 50172.34,
+        "Description": "---------- COMMENTS: APPROVED ON BEHALF OF THE DEPARTMENT CIO - MCKENNONCP FOR YOSHIOKAM  UPDATED QUANTITIES ON LINE ITEMS.  THIS REQUEST IS FOR GRAFANA ENTERPRISE SUBSCRIPTION AND SUPPORT RENEWAL FOR ONE YEAR WITH THREE OPTIONS YEARS. GRAFANA IS A M",
+        "Award Type": null,
+        "generated_internal_id": "CONT_AWD_19AQMM23F1417_1900_NNG15SD11B_8000"
+    },
+    {
+        "internal_id": 159251125,
+        "Award ID": "HT001523F0031",
+        "Recipient Name": "4 STAR TECHNOLOGIES INC",
+        "Start Date": "2023-04-14",
+        "End Date": "2024-04-13",
+        "Award Amount": 40091.08,
+        "Description": "GRAFANA SOFTWARE",
+        "Award Type": null,
+        "generated_internal_id": "CONT_AWD_HT001523F0031_9700_NNG15SD06B_8000"
+    },
+    {
+        "internal_id": 157152101,
+        "Award ID": "24362523F0043",
+        "Recipient Name": "AURORA SYSTEMS CONSULTING INC",
+        "Start Date": "2023-03-14",
+        "End Date": "2024-05-26",
+        "Award Amount": 32475.32,
+        "Description": "GRAFANA ENTERPRISE LICENSE RENEWAL FY23",
+        "Award Type": null,
+        "generated_internal_id": "CONT_AWD_24362523F0043_2400_NNG15SD79B_8000"
+    },
+    {
+        "internal_id": 151709931,
+        "Award ID": "80NSSC22FA903",
+        "Recipient Name": "DISTRIBUTED TECHNOLOGY GROUP LLC",
+        "Start Date": "2022-09-08",
+        "End Date": "2023-09-07",
+        "Award Amount": 39905.09,
+        "Description": "GRAFANA ENTERPRISE",
+        "Award Type": null,
+        "generated_internal_id": "CONT_AWD_80NSSC22FA903_8000_NNG15SC31B_8000"
+    },
+    {
+        "internal_id": 153996875,
+        "Award ID": "W52P1J22F0352",
+        "Recipient Name": "STRATEGIC COMMUNICATIONS LLC",
+        "Start Date": "2022-08-10",
+        "End Date": "2023-08-11",
+        "Award Amount": 52978.78,
+        "Description": "GRAFANA SOFTWARE LICENSE MAINTENANCE FOR WIDEBAND SATCOM TREND ANALYSIS AND ANOMALY AND RESOLUTION SUBSYSTEM/WIDEBAND SATCOM OPERATIONAL MANAGEMENT SYSTEM (WSOMS) MEDIATED INTEROPERABILITY INFRASTRUCTURE (WSTARS/WMII) SUBSYSTEM.",
+        "Award Type": null,
+        "generated_internal_id": "CONT_AWD_W52P1J22F0352_9700_W52P1J20D0065_9700"
+    },
+    {
+        "internal_id": 152529866,
+        "Award ID": "19AQMM22F2142",
+        "Recipient Name": "GOVSMART INC",
+        "Start Date": "2022-07-11",
+        "End Date": "2023-07-10",
+        "Award Amount": 36409.97,
+        "Description": "GRAFANA ENTERPRISE RENEWAL",
+        "Award Type": null,
+        "generated_internal_id": "CONT_AWD_19AQMM22F2142_1900_NNG15SD11B_8000"
+    },
+    {
+        "internal_id": 148980487,
+        "Award ID": "HT001522F0041",
+        "Recipient Name": "NEW TECH SOLUTIONS, INC.",
+        "Start Date": "2022-04-14",
+        "End Date": "2022-04-14",
+        "Award Amount": 39124.21,
+        "Description": "GRAFANA ENTERPRISE* GRAFANA LABS",
+        "Award Type": null,
+        "generated_internal_id": "CONT_AWD_HT001522F0041_9700_NNG15SC82B_8000"
+    },
+    {
+        "internal_id": 149286904,
+        "Award ID": "24362522F0036",
+        "Recipient Name": "GOVSMART INC",
+        "Start Date": "2022-04-07",
+        "End Date": "2023-05-27",
+        "Award Amount": 29074.73,
+        "Description": "SP-CIO-49737 GRAFANA ENTERPRISE LICENSES RENEWAL FY22",
+        "Award Type": null,
+        "generated_internal_id": "CONT_AWD_24362522F0036_2400_NNG15SD11B_8000"
+    },
+    {
+        "internal_id": 143328010,
+        "Award ID": "N6523621F0699",
+        "Recipient Name": "ACCESSAGILITY LLC",
+        "Start Date": "2021-08-09",
+        "End Date": "2021-09-30",
+        "Award Amount": 31843.35,
+        "Description": "GRAFANA LABS",
+        "Award Type": null,
+        "generated_internal_id": "CONT_AWD_N6523621F0699_9700_NNG15SC23B_8000"
+    },
+    {
+        "internal_id": 140813764,
+        "Award ID": "W9124D21F0406",
+        "Recipient Name": "WORLD WIDE TECHNOLOGY LLC",
+        "Start Date": "2021-07-20",
+        "End Date": "2022-07-19",
+        "Award Amount": 30694.73,
+        "Description": "GRAFANA SOFTWARE RENEWAL FOR HUMAN RESOURCE COMMAND (HRC) FORT KNOX, KY",
+        "Award Type": null,
+        "generated_internal_id": "CONT_AWD_W9124D21F0406_9700_W52P1J20D0069_9700"
+    },
+    {
+        "internal_id": 137823514,
+        "Award ID": "19AQMM21F2477",
+        "Recipient Name": "GOVSMART INC",
+        "Start Date": "2021-07-11",
+        "End Date": "2022-07-10",
+        "Award Amount": 34481.87,
+        "Description": "THIS REQUEST IS FOR RENEWAL OF SUPPORT AND MAINTENANCE ON GRAFANA ENTERPRISE SOFTWARE.",
+        "Award Type": null,
+        "generated_internal_id": "CONT_AWD_19AQMM21F2477_1900_NNG15SD11B_8000"
+    },
+    {
+        "internal_id": 134002040,
+        "Award ID": "24362521F0204",
+        "Recipient Name": "GOVSMART INC",
+        "Start Date": "2021-06-01",
+        "End Date": "2022-05-31",
+        "Award Amount": 29472.63,
+        "Description": "GRAFANA LICENSES FOR USA STAFFING",
+        "Award Type": null,
+        "generated_internal_id": "CONT_AWD_24362521F0204_2400_NNG15SD11B_8000"
+    },
+    {
+        "internal_id": 110641587,
+        "Award ID": "70RTAC20FR0000150",
+        "Recipient Name": "VETERAN TECHNOLOGY PARTNERS II LLC",
+        "Start Date": "2020-09-22",
+        "End Date": "2021-09-21",
+        "Award Amount": 91258.4,
+        "Description": "DATA VISUALIZATION AND DATABASE MANAGEMENT SOFTWARE (GRAFANA/INFLUXDB)",
+        "Award Type": null,
+        "generated_internal_id": "CONT_AWD_70RTAC20FR0000150_7001_HSHQDC13D00018_7001"
+    },
+    {
+        "internal_id": 108324870,
+        "Award ID": "19AQMM20F2607",
+        "Recipient Name": "RED RIVER TECHNOLOGY LLC",
+        "Start Date": "2020-07-11",
+        "End Date": "2021-07-10",
+        "Award Amount": 35259.1,
+        "Description": "GRAFANA ENTERPRISE - 25 VIEWERS (1-YEAR SUBSCRIPTION)",
+        "Award Type": null,
+        "generated_internal_id": "CONT_AWD_19AQMM20F2607_1900_NNG15SC85B_8000"
+    },
+    {
+        "internal_id": 110057887,
+        "Award ID": "W911S220P0990",
+        "Recipient Name": "MVP NETWORK CONSULTING LLC",
+        "Start Date": "2020-06-04",
+        "End Date": "2020-07-06",
+        "Award Amount": 29998.96,
+        "Description": "BUY # 1008380_02  GRAFANA ENTERPRISE SUBSCRIPTION",
+        "Award Type": null,
+        "generated_internal_id": "CONT_AWD_W911S220P0990_9700_-NONE-_-NONE-"
+    },
+    {
+        "internal_id": 76351721,
+        "Award ID": "W911S218P1923",
+        "Recipient Name": "VCLOUD TECH INC.",
+        "Start Date": "2018-09-18",
+        "End Date": "2018-10-29",
+        "Award Amount": 27045.12,
+        "Description": "GRAFANA ENTRPRISE SUBSCRIPTION 5.0",
+        "Award Type": null,
+        "generated_internal_id": "CONT_AWD_W911S218P1923_9700_-NONE-_-NONE-"
+    }
+]

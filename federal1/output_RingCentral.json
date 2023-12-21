@@ -1,0 +1,46 @@
+[
+    {
+        "internal_id": 155271883,
+        "Award ID": "W52P1J22P4055",
+        "Recipient Name": "RINGCENTRAL, INC.",
+        "Start Date": "2022-09-23",
+        "End Date": "2023-09-22",
+        "Award Amount": 37610.7,
+        "Description": "VOIP PILOT IN SUPPORT OF USMA AT WEST POINT",
+        "Award Type": null,
+        "generated_internal_id": "CONT_AWD_W52P1J22P4055_9700_-NONE-_-NONE-"
+    },
+    {
+        "internal_id": 107123743,
+        "Award ID": "93310020P0023",
+        "Recipient Name": "RINGCENTRAL, INC.",
+        "Start Date": "2020-07-20",
+        "End Date": "2021-02-28",
+        "Award Amount": 0.0,
+        "Description": "WEBINAR LICENSES",
+        "Award Type": null,
+        "generated_internal_id": "CONT_AWD_93310020P0023_9300_-NONE-_-NONE-"
+    },
+    {
+        "internal_id": 96118833,
+        "Award ID": "93310020P0012",
+        "Recipient Name": "RINGCENTRAL, INC.",
+        "Start Date": "2020-03-01",
+        "End Date": "2022-02-28",
+        "Award Amount": 308237.03,
+        "Description": "VOIP SERVICES",
+        "Award Type": null,
+        "generated_internal_id": "CONT_AWD_93310020P0012_9300_-NONE-_-NONE-"
+    },
+    {
+        "internal_id": 15223031,
+        "Award ID": "FMCS2016C0006",
+        "Recipient Name": "RINGCENTRAL, INC.",
+        "Start Date": "2016-02-05",
+        "End Date": "2020-02-04",
+        "Award Amount": 688386.17,
+        "Description": "IGF::OT::IGF - VOICE OVER INTERNET PHONE (VOIP) SUPPORT SERVICES TO FMCS.",
+        "Award Type": null,
+        "generated_internal_id": "CONT_AWD_FMCS2016C0006_9300_-NONE-_-NONE-"
+    }
+]
