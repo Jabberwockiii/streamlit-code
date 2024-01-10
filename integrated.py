@@ -6,9 +6,9 @@ from datetime import datetime, timedelta
 import plotly.express as px
 
 # Configuration
-GITHUB_DATA_DIR = "./githubdata1"  # Directory for GitHub data
+GITHUB_DATA_DIR = "/home/ubuntu/streamlit-code/static/githubstatic"  # Directory for GitHub data
 FEDERAL_DATA_DIR = "./federal1"    # Directory for Federal data
-HUGGINGFACE_DATA_DIR = "./huggingface1"  # Directory for Hugging Face data
+HUGGINGFACE_DATA_DIR = "/home/ubuntu/streamlit-code/static/huggingfacestatic"  # Directory for Hugging Face data
 
 # Function to read and aggregate GitHub data with granularity
 def read_aggregate_github_files(start_date, end_date, data_dir, granularity):
