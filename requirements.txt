@@ -1,4 +1,6 @@
-streamlit
-pandas
-json5  # json is a standard library, json5 can be used for compatibility
-plotly  # for plotly.express
+matplotlib==3.7.4
+pandas==2.1.4
+playwright==1.40.0
+plotly==5.18.0
+Requests==2.31.0
+streamlit==1.29.0

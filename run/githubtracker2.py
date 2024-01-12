@@ -11,6 +11,11 @@ owners = [
     "mongodb",
     "hashicorp",
     "hashicorp",
+    "hashicorp",
+    "hashicorp",
+    "hashicorp",
+    "hashicorp",
+    "hashicorp",
     "gitlabhq",
     "apache",
     "apache",
@@ -36,7 +41,7 @@ owners = [
     "procore",
     "ringcentral",
     "smartsheet-platform",
-    "confluentinc"
+    "confluentinc",
 ]
 
 repositories= [
@@ -47,6 +52,11 @@ repositories= [
     "mongo",
     "terraform",
     "vault",
+    "consul",
+    "nomad",
+    "vagrant",
+    "boundary", 
+    "packer", 
     "gitlabhq",
     "kafka",
     "flink",
@@ -73,6 +83,7 @@ repositories= [
     "ringcentral-web-phone",
     "smartsheet-python-sdk",
     "confluent-kafka-python"
+    
 ]
 
 data = {'Repository': [], 'Stars': [], 'Watches': [], 'Forks': []}
