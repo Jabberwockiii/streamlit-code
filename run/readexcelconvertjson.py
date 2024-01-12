@@ -6,10 +6,10 @@ import re
 def clean_column_name(col):
     col = re.sub(r'\.\d+', '', col)  # Remove .number
     return col
+
 def create_json_files(file_path):
     # Load the Excel file
     data = pd.read_excel(file_path)
-
     # Calculate the number of groups (each group contains 5 columns)
     num_groups = len(data.columns) // 5
     # Process each group
@@ -22,6 +22,6 @@ def create_json_files(file_path):
         # clean the column names 
         group_data.columns = [clean_column_name(col) for col in group_data.columns]
         print(group_data.columns)
-        group_data.to_json(f"./githubstatic/github_data_{date}.json", orient='records', lines=True) 
+        group_data.to_json(f"../static/githubstatic/github_data_{date}.json", orient='records', lines=True) 
 # Example usage
-create_json_files('./githubstatic/github_data.xlsx')
+create_json_files('../static/githubstatic/github_data.xlsx')

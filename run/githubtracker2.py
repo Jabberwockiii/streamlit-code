@@ -3,88 +3,16 @@ import pandas as pd
 from datetime import datetime
 import time
 import os 
-owners = [
-    "DigitalOcean",
-    "elastic",
-    "grafana",
-    "prometheus",
-    "mongodb",
-    "hashicorp",
-    "hashicorp",
-    "hashicorp",
-    "hashicorp",
-    "hashicorp",
-    "hashicorp",
-    "hashicorp",
-    "gitlabhq",
-    "apache",
-    "apache",
-    "apache",
-    "atlassian-api",
-    "dynatrace",
-    "couchbase",
-    "DataDog",
-    "DataDog",
-    "DataDog",
-    "HubSpot",
-    "MicroStrategy",
-    "twilio",
-    "twilio",
-    "ropensci",
-    "CrowdStrike",
-    "fastly",
-    "cloudflare",
-    "nutanix",
-    "okta",
-    "PaloAltoNetworks",
-    "tenable",
-    "procore",
-    "ringcentral",
-    "smartsheet-platform",
-    "confluentinc",
-]
 
-repositories= [
-    "doctl",
-    "elasticsearch",
-    "grafana",
-    "prometheus",
-    "mongo",
-    "terraform",
-    "vault",
-    "consul",
-    "nomad",
-    "vagrant",
-    "boundary", 
-    "packer", 
-    "gitlabhq",
-    "kafka",
-    "flink",
-    "spark",
-    "atlassian-python-api",
-    "dynatrace-operator",
-    "couchbase-lite-ios",
-    "datadog-agent",
-    "dd-agent",
-    "datadogpy",
-    "odometer",
-    "mstrio-py",
-    "twilio-python",
-    "twilio-php",
-    "qualtRics",
-    "CRT",
-    "go-fastly",
-    "cloudflared",
-    "blueprints",
-    "terraform-provider-okta",
-    "ansible-pan",
-    "pyTenable",
-    "js-sdk",
-    "ringcentral-web-phone",
-    "smartsheet-python-sdk",
-    "confluent-kafka-python"
-    
-]
+def load_data(file_path):
+    with open(file_path, 'r') as file:
+        lines = file.read().splitlines()
+    return [line.split(':') for line in lines]
+
+repopairs = load_data('repos.txt')
+
+owners = [pair[0] for pair in repopairs]
+repositories = [pair[1] for pair in repopairs]
 
 data = {'Repository': [], 'Stars': [], 'Watches': [], 'Forks': []}
 
@@ -145,5 +73,3 @@ else:
 
 # Write the final DataFrame to an Excel file
 final_df.to_excel(filename, index=False, engine='openpyxl')
-
-

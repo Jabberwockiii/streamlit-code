@@ -5,10 +5,13 @@ import os
 from datetime import datetime, timedelta
 import plotly.express as px
 
-# Configuration
-GITHUB_DATA_DIR = "/home/ubuntu/streamlit-code/static/githubstatic"  # Directory for GitHub data
-FEDERAL_DATA_DIR = "./federal1"    # Directory for Federal data
-HUGGINGFACE_DATA_DIR = "/home/ubuntu/streamlit-code/static/huggingfacestatic"  # Directory for Hugging Face data
+with open('config.json', 'r') as file:
+    config = json.load(file)
+
+# Access the directories from the configuration
+GITHUB_DATA_DIR = config['GITHUB_DATA_DIR']
+FEDERAL_DATA_DIR = config['FEDERAL_DATA_DIR']
+HUGGINGFACE_DATA_DIR = config['HUGGINGFACE_DATA_DIR']
 
 # Function to read and aggregate GitHub data with granularity
 def read_aggregate_github_files(start_date, end_date, data_dir, granularity):
@@ -82,7 +85,7 @@ def plot_hugging_face_data(df):
 
 # Streamlit UI
 st.set_page_config(layout="wide")
-mode = st.sidebar.selectbox("Select Mode", ["GitHub Data", "Award Amount Visualization", "Hugging Face Model Downloads"])
+mode = st.sidebar.selectbox("Select Mode", ["GitHub Data", "Award Amount Visualization", "Hugging Face Model Downloads", "Customize GitHub Data"])
 
 if mode == "GitHub Data":
     # GitHub Data UI and Logic
@@ -175,3 +178,34 @@ elif mode == "Hugging Face Model Downloads":
             st.error("No data available for the selected date range.")
     else:
         st.error("End date must fall after start date.")
+
+elif mode == "Customize GitHub Data":
+    # Add a section in your Streamlit UI for custom GitHub data input
+    st.sidebar.title("GitHub Repository Input")
+
+    # Text input for repository owner
+    repo_owner_input = st.sidebar.text_input("Enter the repository owner")
+
+    # Text input for repository name
+    repo_name_input = st.sidebar.text_input("Enter the repository name")
+
+    # Add a button to submit the input
+    submit_button = st.sidebar.button('Submit')
+
+    # Logic to print the user input to the terminal
+    # if the submit button is clicked
+    if submit_button:
+        st.sidebar.write("You submitted:", repo_owner_input, repo_name_input)
+        print("Repository Owner:", repo_owner_input)
+        print("Repository Name:", repo_name_input)
+        # add the data to the repos.txt file
+        with open('run/repos.txt', 'a') as file:
+            file.write(f"{repo_owner_input}:{repo_name_input}\n")
+    # add the repo to the repos.txt file
+    # read a txt file and 
+    with open('run/repos.txt', 'r') as file:
+        lines = file.read().splitlines()
+    # convert to a dataframe
+    df = pd.DataFrame([line.split(':') for line in lines])
+    df.columns = ['Repository Owner', 'Repository Name']
+    st.dataframe(df)
