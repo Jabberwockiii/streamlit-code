@@ -4,6 +4,7 @@ import json
 import os
 from datetime import datetime, timedelta
 import plotly.express as px
+import re
 
 with open('config.json', 'r') as file:
     config = json.load(file)
@@ -210,7 +211,42 @@ elif mode == "Customize GitHub Data":
     df.columns = ['Repository Owner', 'Repository Name']
     st.dataframe(df)
 elif mode == "Copilot Data":
-    # read data from static copilotstatic
-    st.title("Copilot Data")
-    df = pd.read_csv(COPILOT_DATA_DIR)
+
+# Assuming COPILOT_DATA_DIR is a predefined directory path
+    file = COPILOT_DATA_DIR + "/scraped_info.xlsx"
+
+    # Read the entire DataFrame including the dates
+    df = pd.read_excel(file, usecols=[0, 2, 3])  # Assuming the first column (0) is the date
+
+    # Function to extract numbers from strings
+    def extract_number(s):
+        return int(re.sub("[^0-9]", "", s))
+
+    # Apply the function to clean data
+    df['JetBrains Ratings'] = df.iloc[:, 1].apply(extract_number)
+    df['VSCode Installs'] = df.iloc[:, 2].apply(extract_number)
+
+    # Allow the user to pick which data to plot
+    option = st.selectbox(
+        'Choose which data to display:',
+        ('JetBrains', 'VSCode')
+    )
+    if option == 'JetBrains':
+        y_data = 'JetBrains Ratings'
+    else:
+        y_data = 'VSCode Installs'
+
+    # Create a Plotly figure
+    fig = px.line(df, x=df.columns[0], y=y_data, title=f'{option} Ratings and Downloads Over Time')
+
+    # Update layout for better readability
+    fig.update_layout(
+        xaxis_title='Date',
+        yaxis_title='Values',
+        legend_title='Metrics',
+    )
+
+    # Display the plot in Streamlit
+    st.plotly_chart(fig)
+    # Display the dataframe
     st.dataframe(df)
