@@ -33,3 +33,4 @@ tenable:pyTenable
 procore:js-sdk
 ringcentral:ringcentral-web-phone
 hashicorp:consul-k8s
+hashicorp:terraform-provider-google-beta

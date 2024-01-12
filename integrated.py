@@ -209,3 +209,4 @@ elif mode == "Customize GitHub Data":
     df = pd.DataFrame([line.split(':') for line in lines])
     df.columns = ['Repository Owner', 'Repository Name']
     st.dataframe(df)
+    

@@ -1,5 +1,5 @@
 {
-  "GITHUB_DATA_DIR": "/home/ubuntu/stream-code/static/githubstatic",
+  "GITHUB_DATA_DIR": "/home/ubuntu/streamlit-code/static/githubstatic",
   "FEDERAL_DATA_DIR": "./federal1",
-  "HUGGINGFACE_DATA_DIR": "/home/ubuntu/stream-code/static/huggingfacestatic"
+  "HUGGINGFACE_DATA_DIR": "/home/ubuntu/streamlit-code/static/huggingfacestatic"
 }

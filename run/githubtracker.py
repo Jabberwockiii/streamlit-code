@@ -48,7 +48,7 @@ def write_to_excel(ratings, downloads, vscode_installs):
     }
     df = pd.DataFrame(data)
 
-    excel_file = 'scraped_info.xlsx'
+    excel_file = '../static/copilotstatic/scraped_info.xlsx'
     if os.path.exists(excel_file):
         df_existing = pd.read_excel(excel_file)
         df = pd.concat([df_existing, df], ignore_index=True)
