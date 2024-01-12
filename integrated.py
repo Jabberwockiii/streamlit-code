@@ -12,7 +12,7 @@ with open('config.json', 'r') as file:
 GITHUB_DATA_DIR = config['GITHUB_DATA_DIR']
 FEDERAL_DATA_DIR = config['FEDERAL_DATA_DIR']
 HUGGINGFACE_DATA_DIR = config['HUGGINGFACE_DATA_DIR']
-
+COPILOT_DATA_DIR = config['COPILOT_DATA_DIR']
 # Function to read and aggregate GitHub data with granularity
 def read_aggregate_github_files(start_date, end_date, data_dir, granularity):
     delta = timedelta(days=1)
@@ -85,7 +85,7 @@ def plot_hugging_face_data(df):
 
 # Streamlit UI
 st.set_page_config(layout="wide")
-mode = st.sidebar.selectbox("Select Mode", ["GitHub Data", "Award Amount Visualization", "Hugging Face Model Downloads", "Customize GitHub Data"])
+mode = st.sidebar.selectbox("Select Mode", ["GitHub Data", "Award Amount Visualization", "Hugging Face Model Downloads", "Customize GitHub Data", "Copilot Data"])
 
 if mode == "GitHub Data":
     # GitHub Data UI and Logic
@@ -209,4 +209,8 @@ elif mode == "Customize GitHub Data":
     df = pd.DataFrame([line.split(':') for line in lines])
     df.columns = ['Repository Owner', 'Repository Name']
     st.dataframe(df)
-    
+elif mode == "Copilot Data":
+    # read data from static copilotstatic
+    st.title("Copilot Data")
+    df = pd.read_csv(COPILOT_DATA_DIR)
+    st.dataframe(df)
