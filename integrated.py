@@ -76,17 +76,15 @@ def read_huggingface(start_date, end_date, data_dir):
         current_date += delta
 
     return pd.concat(all_data) if all_data else pd.DataFrame()
-
 # Function to plot Hugging Face data using Plotly
 def plot_hugging_face_data(df):
     fig = px.line(df, x='date', y='downloads', color='modelId', markers=True, 
                   title='Hugging Face Model Downloads Over Time', labels={'date': 'Date', 'downloads': 'Downloads'})
     fig.update_layout(xaxis_title='Date', yaxis_title='Downloads', legend_title='Model ID')
     st.plotly_chart(fig, use_container_width=True)
-
 # Streamlit UI
 st.set_page_config(layout="wide")
-mode = st.sidebar.selectbox("Select Mode", ["GitHub Data", "Award Amount Visualization", "Hugging Face Model Downloads", "Customize GitHub Data", "Copilot Data"])
+mode = st.sidebar.selectbox("Select Mode", ["GitHub Data", "Award Amount Visualization", "Hugging Face Model Downloads", "Customize GitHub Data", "Copilot Data", "Sensor Tower"])
 
 if mode == "GitHub Data":
     # GitHub Data UI and Logic
@@ -210,7 +208,7 @@ elif mode == "Customize GitHub Data":
     df = pd.DataFrame([line.split(':') for line in lines])
     df.columns = ['Repository Owner', 'Repository Name']
     st.dataframe(df)
-elif mode == "Copilot Data":
+if mode == "Copilot Data":
 
 # Assuming COPILOT_DATA_DIR is a predefined directory path
     file = COPILOT_DATA_DIR + "/scraped_info.xlsx"
@@ -226,18 +224,25 @@ elif mode == "Copilot Data":
     df['JetBrains Ratings'] = df.iloc[:, 1].apply(extract_number)
     df['VSCode Installs'] = df.iloc[:, 2].apply(extract_number)
 
-    # Allow the user to pick which data to plot
-    option = st.selectbox(
+    # Calculate the aggregated growth
+    df['Aggregated Growth'] = df['JetBrains Ratings'] + df['VSCode Installs']
+
+    # Allow the user to pick which data to plot, using a sidebar for the option
+    options = ['JetBrains', 'VSCode', 'Aggregated Growth']
+    option = st.sidebar.selectbox(
         'Choose which data to display:',
-        ('JetBrains', 'VSCode')
+        options
     )
+
     if option == 'JetBrains':
         y_data = 'JetBrains Ratings'
-    else:
+    elif option == 'VSCode':
         y_data = 'VSCode Installs'
+    else:
+        y_data = 'Aggregated Growth'
 
     # Create a Plotly figure
-    fig = px.line(df, x=df.columns[0], y=y_data, title=f'{option} Ratings and Downloads Over Time')
+    fig = px.line(df, x=df.columns[0], y=y_data, title=f'{option} Data Over Time')
 
     # Update layout for better readability
     fig.update_layout(
@@ -250,3 +255,4 @@ elif mode == "Copilot Data":
     st.plotly_chart(fig)
     # Display the dataframe
     st.dataframe(df)
+#if mode == "Sensor Tower":
