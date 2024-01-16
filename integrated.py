@@ -5,6 +5,9 @@ import os
 from datetime import datetime, timedelta
 import plotly.express as px
 import re
+import pandas as pd
+import matplotlib.pyplot as plt
+from io import StringIO
 
 with open('config.json', 'r') as file:
     config = json.load(file)
@@ -14,6 +17,7 @@ GITHUB_DATA_DIR = config['GITHUB_DATA_DIR']
 FEDERAL_DATA_DIR = config['FEDERAL_DATA_DIR']
 HUGGINGFACE_DATA_DIR = config['HUGGINGFACE_DATA_DIR']
 COPILOT_DATA_DIR = config['COPILOT_DATA_DIR']
+SENSORTOWER_DATA_DIR = config['SENSORTOWER_DATA_DIR']
 # Function to read and aggregate GitHub data with granularity
 def read_aggregate_github_files(start_date, end_date, data_dir, granularity):
     delta = timedelta(days=1)
@@ -84,7 +88,7 @@ def plot_hugging_face_data(df):
     st.plotly_chart(fig, use_container_width=True)
 # Streamlit UI
 st.set_page_config(layout="wide")
-mode = st.sidebar.selectbox("Select Mode", ["GitHub Data", "Award Amount Visualization", "Hugging Face Model Downloads", "Customize GitHub Data", "Copilot Data", "Sensor Tower"])
+mode = st.sidebar.selectbox("Select Mode", ["GitHub Data", "Award Amount Visualization", "Hugging Face Model Downloads", "Customize GitHub Data", "Copilot Data", "Sensor Tower-GithubApp"])
 
 if mode == "GitHub Data":
     # GitHub Data UI and Logic
@@ -255,4 +259,29 @@ if mode == "Copilot Data":
     st.plotly_chart(fig)
     # Display the dataframe
     st.dataframe(df)
-#if mode == "Sensor Tower":
+def readSensorTowerFile(file_name, data_dir):
+    with open(os.path.join(data_dir, file_name), 'r') as file:
+        data = json.load(file)
+    return pd.DataFrame(data)
+if mode == "Sensor Tower-GithubApp":
+    # GitHub Data UI and Logic
+    st.sidebar.title("GitHub Data Settings")
+    start_date = st.sidebar.date_input("Start date", datetime(2022, 10, 1))
+    end_date = st.sidebar.date_input("End date", datetime.now())
+    #selected_field = st.sidebar.selectbox("Select Field to Plot", ['Stars', 'Watches', 'Forks'])
+
+    if start_date <= end_date:
+        df = readSensorTowerFile('dau_data.json', SENSORTOWER_DATA_DIR)
+        # 
+        if not df.empty:
+            st.title("GitHub Statistics Over Time")
+            total = df['ipad_users'] + df['iphone_users']
+            df['total_users'] = total
+            # convert date to datetime
+            df['date'] = pd.to_datetime(df['date'])
+            df = df.set_index('date')
+            fig = px.line(df, x=df.index, y='total_users', markers=True)
+            fig.update_layout(title=f'GitHub Apple Daily Active User Over Time', xaxis_title='Date', yaxis_title='DAU')
+            st.plotly_chart(fig, use_container_width=True)
+            st.dataframe(df)
+        
