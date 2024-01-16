@@ -6,8 +6,6 @@ from datetime import datetime, timedelta
 import plotly.express as px
 import re
 import pandas as pd
-import matplotlib.pyplot as plt
-from io import StringIO
 
 with open('config.json', 'r') as file:
     config = json.load(file)
@@ -274,14 +272,13 @@ if mode == "Sensor Tower-GithubApp":
         df = readSensorTowerFile('dau_data.json', SENSORTOWER_DATA_DIR)
         # 
         if not df.empty:
-            st.title("GitHub Statistics Over Time")
+            st.title("Github Mobile App User Statistics(Sensor Tower API)")
             total = df['ipad_users'] + df['iphone_users']
             df['total_users'] = total
             # convert date to datetime
             df['date'] = pd.to_datetime(df['date'])
             df = df.set_index('date')
             fig = px.line(df, x=df.index, y='total_users', markers=True)
-            fig.update_layout(title=f'GitHub Apple Daily Active User Over Time', xaxis_title='Date', yaxis_title='DAU')
+            fig.update_layout(title=f'GitHub Apple User Daily Active User Over Time', xaxis_title='Date', yaxis_title='DAU')
             st.plotly_chart(fig, use_container_width=True)
             st.dataframe(df)
-        
