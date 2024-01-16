@@ -5,7 +5,6 @@ import os
 from datetime import datetime, timedelta
 import plotly.express as px
 import re
-import pandas as pd
 
 with open('config.json', 'r') as file:
     config = json.load(file)
