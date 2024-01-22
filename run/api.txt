@@ -1,0 +1,3 @@
+curl -X 'GET' \
+  'https://api.sensortower.com/v1/unified/sales_reports?date_granularity=daily&start_date=2021-01-10&end_date=2021-01-20&auth_token=YOUR_AUTHENTICATION_TOKEN' \
+  -H 'accept: */*'

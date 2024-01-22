@@ -23,7 +23,7 @@ headers = {
 }
 counter = 1 
 for owner, repo in zip(owners, repositories):
-    if counter % 20 == 0: 
+    if counter % 10 == 0: 
          time.sleep(3600)
     url = f"https://api.github.com/repos/{owner}/{repo}"
     response = requests.get(url, headers=headers)
