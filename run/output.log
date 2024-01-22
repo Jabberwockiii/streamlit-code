@@ -1,0 +1,129 @@
+Repo: grafana, Stars: 58905, Watches: 1269, Forks: 11563
+Repo: prometheus, Stars: 51453, Watches: 1137, Forks: 8723
+Repo: mongo, Stars: 24971, Watches: 1234, Forks: 5516
+Repo: terraform, Stars: 40123, Watches: 1187, Forks: 9343
+Repo: vault, Stars: 29167, Watches: 826, Forks: 4100
+Repo: consul, Stars: 27507, Watches: 932, Forks: 4436
+Repo: nomad, Stars: 14200, Watches: 538, Forks: 1898
+Repo: vagrant, Stars: 25619, Watches: 727, Forks: 4495
+Repo: boundary, Stars: 3736, Watches: 199, Forks: 274
+Repo: packer, Stars: 14762, Watches: 479, Forks: 3376
+Repo: gitlabhq, Stars: 23489, Watches: 975, Forks: 5779
+Repo: kafka, Stars: 26659, Watches: 1073, Forks: 13402
+Repo: flink, Stars: 22720, Watches: 945, Forks: 13057
+Repo: spark, Stars: 37635, Watches: 2033, Forks: 28174
+Repo: atlassian-python-api, Stars: 1200, Watches: 40, Forks: 653
+Repo: dynatrace-operator, Stars: 144, Watches: 12, Forks: 135
+Repo: couchbase-lite-ios, Stars: 1607, Watches: 85, Forks: 304
+Repo: datadog-agent, Stars: 2451, Watches: 486, Forks: 1132
+Repo: dd-agent, Stars: 1298, Watches: 393, Forks: 853
+Repo: datadogpy, Stars: 587, Watches: 514, Forks: 340
+Repo: odometer, Stars: 7261, Watches: 286, Forks: 736
+Repo: mstrio-py, Stars: 87, Watches: 25, Forks: 56
+Repo: twilio-python, Stars: 1752, Watches: 126, Forks: 749
+Repo: twilio-php, Stars: 1468, Watches: 128, Forks: 609
+Repo: qualtRics, Stars: 207, Watches: 19, Forks: 69
+Repo: CRT, Stars: 677, Watches: 35, Forks: 139
+Repo: go-fastly, Stars: 146, Watches: 70, Forks: 118
+Repo: cloudflared, Stars: 7294, Watches: 93, Forks: 718
+Repo: blueprints, Stars: 71, Watches: 30, Forks: 93
+Repo: terraform-provider-okta, Stars: 227, Watches: 29, Forks: 196
+Repo: ansible-pan, Stars: 223, Watches: 66, Forks: 163
+Repo: pyTenable, Stars: 312, Watches: 47, Forks: 163
+Repo: js-sdk, Stars: 13, Watches: 156, Forks: 7
+Repo: ringcentral-web-phone, Stars: 102, Watches: 26, Forks: 73
+Repo: consul-k8s, Stars: 637, Watches: 49, Forks: 314
+Repo: terraform-provider-google-beta, Stars: 246, Watches: 27, Forks: 244
+
+Index(['Repository', 'Stars', 'Watches', 'Forks', '2023-10-21'], dtype='object')
+Index(['Repository', 'Stars', 'Watches', 'Forks', '2023-10-22'], dtype='object')
+Index(['Repository', 'Stars', 'Watches', 'Forks', '2023-10-23'], dtype='object')
+Index(['Repository', 'Stars', 'Watches', 'Forks', '2023-10-24'], dtype='object')
+Index(['Repository', 'Stars', 'Watches', 'Forks', '2023-10-25'], dtype='object')
+Index(['Repository', 'Stars', 'Watches', 'Forks', '2023-10-26'], dtype='object')
+Index(['Repository', 'Stars', 'Watches', 'Forks', '2023-10-27'], dtype='object')
+Index(['Repository', 'Stars', 'Watches', 'Forks', '2023-10-28'], dtype='object')
+Index(['Repository', 'Stars', 'Watches', 'Forks', '2023-10-29'], dtype='object')
+Index(['Repository', 'Stars', 'Watches', 'Forks', '2023-10-30'], dtype='object')
+Index(['Repository', 'Stars', 'Watches', 'Forks', '2023-10-31'], dtype='object')
+Index(['Repository', 'Stars', 'Watches', 'Forks', '2023-11-01'], dtype='object')
+Index(['Repository', 'Stars', 'Watches', 'Forks', '2023-11-02'], dtype='object')
+Index(['Repository', 'Stars', 'Watches', 'Forks', '2023-11-03'], dtype='object')
+Index(['Repository', 'Stars', 'Watches', 'Forks', '2023-11-04'], dtype='object')
+Index(['Repository', 'Stars', 'Watches', 'Forks', '2023-11-05'], dtype='object')
+Index(['Repository', 'Stars', 'Watches', 'Forks', '2023-11-06'], dtype='object')
+Index(['Repository', 'Stars', 'Watches', 'Forks', '2023-11-06'], dtype='object')
+Index(['Repository', 'Stars', 'Watches', 'Forks', '2023-11-07'], dtype='object')
+Index(['Repository', 'Stars', 'Watches', 'Forks', '2023-11-08'], dtype='object')
+Index(['Repository', 'Stars', 'Watches', 'Forks', '2023-11-09'], dtype='object')
+Index(['Repository', 'Stars', 'Watches', 'Forks', '2023-11-10'], dtype='object')
+Index(['Repository', 'Stars', 'Watches', 'Forks', '2023-11-11'], dtype='object')
+Index(['Repository', 'Stars', 'Watches', 'Forks', '2023-11-12'], dtype='object')
+Index(['Repository', 'Stars', 'Watches', 'Forks', '2023-11-13'], dtype='object')
+Index(['Repository', 'Stars', 'Watches', 'Forks', '2023-11-14'], dtype='object')
+Index(['Repository', 'Stars', 'Watches', 'Forks', '2023-11-15'], dtype='object')
+Index(['Repository', 'Stars', 'Watches', 'Forks', '2023-11-16'], dtype='object')
+Index(['Repository', 'Stars', 'Watches', 'Forks', '2023-11-17'], dtype='object')
+Index(['Repository', 'Stars', 'Watches', 'Forks', '2023-11-18'], dtype='object')
+Index(['Repository', 'Stars', 'Watches', 'Forks', '2023-11-19'], dtype='object')
+Index(['Repository', 'Stars', 'Watches', 'Forks', '2023-11-20'], dtype='object')
+Index(['Repository', 'Stars', 'Watches', 'Forks', '2023-11-21'], dtype='object')
+Index(['Repository', 'Stars', 'Watches', 'Forks', '2023-11-22'], dtype='object')
+Index(['Repository', 'Stars', 'Watches', 'Forks', '2023-11-23'], dtype='object')
+Index(['Repository', 'Stars', 'Watches', 'Forks', '2023-11-24'], dtype='object')
+Index(['Repository', 'Stars', 'Watches', 'Forks', '2023-11-25'], dtype='object')
+Index(['Repository', 'Stars', 'Watches', 'Forks', '2023-11-26'], dtype='object')
+Index(['Repository', 'Stars', 'Watches', 'Forks', '2023-11-27'], dtype='object')
+Index(['Repository', 'Stars', 'Watches', 'Forks', '2023-11-28'], dtype='object')
+Index(['Repository', 'Stars', 'Watches', 'Forks', '2023-11-29'], dtype='object')
+Index(['Repository', 'Stars', 'Watches', 'Forks', '2023-11-30'], dtype='object')
+Index(['Repository', 'Stars', 'Watches', 'Forks', '2023-12-01'], dtype='object')
+Index(['Repository', 'Stars', 'Watches', 'Forks', '2023-12-02'], dtype='object')
+Index(['Repository', 'Stars', 'Watches', 'Forks', '2023-12-03'], dtype='object')
+Index(['Repository', 'Stars', 'Watches', 'Forks', '2023-12-04'], dtype='object')
+Index(['Repository', 'Stars', 'Watches', 'Forks', '2023-12-05'], dtype='object')
+Index(['Repository', 'Stars', 'Watches', 'Forks', '2023-12-06'], dtype='object')
+Index(['Repository', 'Stars', 'Watches', 'Forks', '2023-12-07'], dtype='object')
+Index(['Repository', 'Stars', 'Watches', 'Forks', '2023-12-08'], dtype='object')
+Index(['Repository', 'Stars', 'Watches', 'Forks', '2023-12-09'], dtype='object')
+Index(['Repository', 'Stars', 'Watches', 'Forks', '2023-12-10'], dtype='object')
+Index(['Repository', 'Stars', 'Watches', 'Forks', '2023-12-11'], dtype='object')
+Index(['Repository', 'Stars', 'Watches', 'Forks', '2023-12-12'], dtype='object')
+Index(['Repository', 'Stars', 'Watches', 'Forks', '2023-12-13'], dtype='object')
+Index(['Repository', 'Stars', 'Watches', 'Forks', '2023-12-14'], dtype='object')
+Index(['Repository', 'Stars', 'Watches', 'Forks', '2023-12-15'], dtype='object')
+Index(['Repository', 'Stars', 'Watches', 'Forks', '2023-12-16'], dtype='object')
+Index(['Repository', 'Stars', 'Watches', 'Forks', '2023-12-17'], dtype='object')
+Index(['Repository', 'Stars', 'Watches', 'Forks', '2023-12-18'], dtype='object')
+Index(['Repository', 'Stars', 'Watches', 'Forks', '2023-12-19'], dtype='object')
+Index(['Repository', 'Stars', 'Watches', 'Forks', '2023-12-20'], dtype='object')
+Index(['Repository', 'Stars', 'Watches', 'Forks', '2023-12-21'], dtype='object')
+Index(['Repository', 'Stars', 'Watches', 'Forks', '2023-12-22'], dtype='object')
+Index(['Repository', 'Stars', 'Watches', 'Forks', '2023-12-23'], dtype='object')
+Index(['Repository', 'Stars', 'Watches', 'Forks', '2023-12-24'], dtype='object')
+Index(['Repository', 'Stars', 'Watches', 'Forks', '2023-12-25'], dtype='object')
+Index(['Repository', 'Stars', 'Watches', 'Forks', '2023-12-26'], dtype='object')
+Index(['Repository', 'Stars', 'Watches', 'Forks', '2023-12-27'], dtype='object')
+Index(['Repository', 'Stars', 'Watches', 'Forks', '2023-12-28'], dtype='object')
+Index(['Repository', 'Stars', 'Watches', 'Forks', '2023-12-29'], dtype='object')
+Index(['Repository', 'Stars', 'Watches', 'Forks', '2023-12-30'], dtype='object')
+Index(['Repository', 'Stars', 'Watches', 'Forks', '2023-12-31'], dtype='object')
+Index(['Repository', 'Stars', 'Watches', 'Forks', '2024-01-01'], dtype='object')
+Index(['Repository', 'Stars', 'Watches', 'Forks', '2024-01-02'], dtype='object')
+Index(['Repository', 'Stars', 'Watches', 'Forks', '2024-01-03'], dtype='object')
+Index(['Repository', 'Stars', 'Watches', 'Forks', '2024-01-04'], dtype='object')
+Index(['Repository', 'Stars', 'Watches', 'Forks', '2024-01-05'], dtype='object')
+Index(['Repository', 'Stars', 'Watches', 'Forks', '2024-01-06'], dtype='object')
+Index(['Repository', 'Stars', 'Watches', 'Forks', '2024-01-07'], dtype='object')
+Index(['Repository', 'Stars', 'Watches', 'Forks', '2024-01-08'], dtype='object')
+Index(['Repository', 'Stars', 'Watches', 'Forks', '2024-01-09'], dtype='object')
+Index(['Repository', 'Stars', 'Watches', 'Forks', '2024-01-10'], dtype='object')
+Index(['Repository', 'Stars', 'Watches', 'Forks', '2024-01-10'], dtype='object')
+Index(['Repository', 'Stars', 'Watches', 'Forks', '2024-01-11'], dtype='object')
+Index(['Repository', 'Stars', 'Watches', 'Forks', '2024-01-11'], dtype='object')
+Index(['Repository', 'Stars', 'Watches', 'Forks', '2024-01-12'], dtype='object')
+Index(['Repository', 'Stars', 'Watches', 'Forks', '2024-01-17'], dtype='object')
+Index(['Repository', 'Stars', 'Watches', 'Forks', '2024-01-18'], dtype='object')
+Index(['Repository', 'Stars', 'Watches', 'Forks', '2024-01-19'], dtype='object')
+Index(['Repository', 'Stars', 'Watches', 'Forks', '2024-01-20'], dtype='object')
+Index(['Repository', 'Stars', 'Watches', 'Forks', '2024-01-21'], dtype='object')
